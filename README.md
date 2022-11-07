@@ -99,8 +99,6 @@ $ export TEA_PANTRY_PATH="$PWD/pantry.foo"
 
 $ pantry.core/scripts/build.ts pkg.com
 # ^^ our build infra is all in pantry.core currently
-# ^^ you will need to have installed all dependencies *manually* first
-# try `scripts/deps.ts -b pkg.com | xargs ../cli/scripts/install.ts`
 ```
 
 Packages require a `test` YAML node. This script should thoroughly verify all
