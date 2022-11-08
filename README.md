@@ -123,6 +123,10 @@ it passes both CI and review: we’ll merge!
 Our [wiki] is our packaging knowledge base.
 For other assistance, start a [discussion].
 
+## Build Woes?
+
+PR on [pantry.extra] and we’ll help you out.
+
 ## After Your Contribution
 
 We build “bottles” (tar’d binaries) and upload them to both our centralized
