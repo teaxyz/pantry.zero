@@ -111,6 +111,10 @@ the functionality of the package is working. You can run the test with:
 pantry.core/scripts/test.ts pkg.com
 ```
 
+*You don’t have access to the sources here*—so eg. `make test` won’t work.
+This is deliberate. We aren't testing the source, we’re testing the
+*implementation*. You want to write a test that *uses the tool*.
+
 tea requires all packages be relocatable and cross platform. Our CI will
 verify this for you. You can check locally by moving the installation from
 `~/.tea` to another tea installation (eg. `~/scratch/tea`§ and running the
