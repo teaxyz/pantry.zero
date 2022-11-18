@@ -90,6 +90,9 @@ entry for tips.
 
 You should verify that your package builds before submitting it.
 
+Builds typically require the Xcode Command Line Tools
+(`sudo xcode-select --install`) on macOS and `libc-dev` on Linux.
+
 ```sh
 $ export GITHUB_TOKEN=…
 # ^^ we need a (zero permissions) [PAT] to fetch version info from GitHub
