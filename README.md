@@ -84,9 +84,7 @@ frequently!)‡
 > editor at `~/.tea/tea.xyz/var/pantry`
 
 Create new `package.yml` files namespaced as per our current patterns under
-the [`./projects/`] folder. The `package.yml` format is not documented
-(sorry! we will gradually fix this!), but it is not complex, pick an existing
-entry for tips.
+the [`./projects/`] folder. The `package.yml` [specification](https://github.com/teaxyz/pantry.zero/wiki/Structure-of-a-package.yml) can be found in our [wiki](https://github.com/teaxyz/pantry.zero/wiki/Structure-of-a-package.yml).
 
 You should verify that your package builds before submitting it.
 
