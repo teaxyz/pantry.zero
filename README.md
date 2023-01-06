@@ -56,16 +56,16 @@ single gatekeeper*.
 
 &nbsp;
 
-
 # Contributing
 
 Clone the following alongside each other†:
 
-* https://github.com/teaxyz/cli
-* https://github.com/teaxyz/pantry.core
+* <https://github.com/teaxyz/cli>
+* <https://github.com/teaxyz/pantry.core>
 * This repo (unless this is pantry.zero obv. (this guide is *for forks*))
 
 > † so an `ls` shows this:
+>
 > ```sh
 > $ ls
 > cli
@@ -93,7 +93,7 @@ Builds typically require the Xcode Command Line Tools
 
 ```sh
 $ export GITHUB_TOKEN=…
-# ^^ we need a (zero permissions) [PAT] to fetch version info from GitHub
+# ^^ we need a [PAT] (with "public_repo" permissions) to fetch version info from GitHub
 
 $ export TEA_PANTRY_PATH="$PWD/pantry.foo"
 # ^^ this ensures tea know about the pantry you are editing
@@ -141,15 +141,11 @@ tea automatically builds new releases of packages *as soon as they are
 released* (usually starting the builds within seconds). There is no need to
 submit PRs for updates.
 
-
-
-
 [wiki]: https://github.com/teaxyz/pantry.zero/wiki
 [pantry.core]: https://github.com/teaxyz/pantry.core
 [pantry.extra]: https://github.com/teaxyz/pantry.extra
 [pantry.zero]: https://github.com/teaxyz/pantry.zero
 [tea/cli]: https://github.com/teaxyz/cli
 [discussion]: https://github.com/orgs/teaxyz/discussions
-[PAT]: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 [IPFS]: https://ipfs.tech
 [`./projects/`]: https://github.com/teaxyz/panty.core/projects
